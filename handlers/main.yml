@@ -1,2 +1,26 @@
 ---
 # handlers file for kwriteconfig
+
+- name: Reload KDE
+  debug:
+    msg: "TODO : ADD KDE RESTART HERE"
+
+
+
+# Commands to convert to a handler to run on changes
+
+# ENSURE display is set according to var
+
+# Reload hotkeys
+# kquitapp5 kglobalaccel && sleep 2 && kglobalaccel5 &> /dev/null & disown
+
+# Replace Kwin
+# kwin --replace &> /dev/null & disown ; sleep 1 ;
+
+# Restart Plsama shell
+#  killall plasmashell &> /dev/null
+#  (plasmashell &> /dev/null & disown) &> /dev/null
+
+
+
+

@@ -1,2 +1,13 @@
 ---
 # tasks file for kwriteconfig
+
+# TODO : loop through {{commands}} - only running command if it's not set yet.
+- name: Add user(s) to "docker" group
+  user:
+    name: "{{ item }}"
+    groups: "docker"
+    append: true
+  loop: "{{ docker__users }}"
+  notify:
+  - Reload KDE
+
