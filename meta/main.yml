@@ -10,7 +10,7 @@ galaxy_info:
 
   # Should likely work on other platforms, but not officially supported or tested
   platforms:
-   - name: Ubuntu
+    - name: Ubuntu
       versions:
         - xenial
         - bionic
