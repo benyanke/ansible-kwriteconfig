@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: kwriteconfig
   author: Ben Yanke
   description: An ansible role to modify KDE desktop configuration
 
