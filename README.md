@@ -46,3 +46,17 @@ Author Information
 ------------------
 
 Created by Ben Yanke.
+
+
+
+
+
+TODO: use the commands below to check if shell commands need to be run
+
+- shell: /usr/bin/uptime
+  register: result
+
+- debug:
+    var: result
+    verbosity: 2
+
