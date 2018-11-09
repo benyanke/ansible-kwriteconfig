@@ -1,8 +1,13 @@
 ---
 # defaults file for kwriteconfig
 
-display: "0"
-restart_onchange: "true"
 
+display: 0
+restart_after: true
 commands: []
-
+#  - name: ''
+#    file: ''
+#    group: ''
+#    key: ''
+#    type: ''
+#    value: ''

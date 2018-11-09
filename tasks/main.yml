@@ -10,4 +10,3 @@
   loop: "{{ docker__users }}"
   notify:
   - Reload KDE
-

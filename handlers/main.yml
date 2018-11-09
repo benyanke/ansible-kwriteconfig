@@ -20,7 +20,3 @@
 # Restart Plsama shell
 #  killall plasmashell &> /dev/null
 #  (plasmashell &> /dev/null & disown) &> /dev/null
-
-
-
-
