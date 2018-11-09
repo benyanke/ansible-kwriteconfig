@@ -1,7 +1,7 @@
 ---
 # handlers file for kwriteconfig
 
-- name: Reload KDE
+- name: 'reload kde'
   debug:
     msg: "TODO : ADD KDE RESTART HERE"
 

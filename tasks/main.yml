@@ -9,4 +9,4 @@
     append: true
   loop: "{{ docker__users }}"
   notify:
-  - Reload KDE
+  - reload kde
