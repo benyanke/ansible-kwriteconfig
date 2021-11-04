@@ -3,6 +3,8 @@ kwriteconfig
 
 This tool is a wrapper for kwriteconfig, to assist in configuring KDE desktop environment.
 
+NOTE: this is half done. It's not ready for use.
+
 Requirements
 ------------
 
